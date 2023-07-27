@@ -11,6 +11,10 @@ Storybook theming addon. Code is intially copied from https://github.com/react-t
 - Supports dark Storybook theme
 - Keep selected theme on stories updates
 
+## For Contributors
+
+Run both `npm run dev` and `npm start` to see changes in demo storybook.
+
 ## Usage
 
 install the library
