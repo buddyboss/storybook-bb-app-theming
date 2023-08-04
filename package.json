@@ -34,7 +34,7 @@
     "@storybook/addon-devkit": "^1.4.2",
     "color-string": "^1.9.1",
     "react-color": "^2.18.0",
-    "react-json-view": "^1.21.3"
+    "@zarcode/react-json-view": "^2.0.1"
   },
   "relativeDependencies": {
     "@storybook/addon-devkit": "../addon-development-kit"

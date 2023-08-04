@@ -28,8 +28,14 @@ export const SelectHolder = styled.div`
   padding: ${({ theme }) => theme.layoutMargin}px;
 `;
 
+export const SelectBox = styled.select`
+  font-size: 14px;
+  height: 30px;
+  min-width: 120px;
+`;
+
 export const SelectHeading = styled.h3`
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 6px;
   font-weight: 600;
   text-transform: capitalize;

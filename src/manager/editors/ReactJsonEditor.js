@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactJson from 'react-json-view';
+import ReactJson from '@zarcode/react-json-view';
 
 const ReactJsonEditor = ({ isDark, theme, selectValue }) => {
   const jsTheme = isDark ? 'codeschool' : 'shapeshifter:inverted';

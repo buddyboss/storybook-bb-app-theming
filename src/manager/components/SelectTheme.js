@@ -38,7 +38,7 @@ const SelectTheme = ({
               <label htmlFor={selectV}>
                 <styled.SelectHeading>{selectV}</styled.SelectHeading>
               </label>
-              <select
+              <styled.SelectBox
                 name={selectV}
                 onChange={event => {
                   setSelected(s => {
@@ -60,7 +60,7 @@ const SelectTheme = ({
                     </option>
                   );
                 })}
-              </select>
+              </styled.SelectBox>
             </styled.SelectHolder>
           );
         })}
